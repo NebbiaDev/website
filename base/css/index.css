@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Framework7 Icons;
+    src: url(https://kasar.ml/fonts/Framework7Icons-Regular.woff2);
+}
+
+body {
+    font-family: helvetica;
+    background-image: linear-gradient(to right, #be93be, #7bc6cc);
+    background-color: #be93c5;
+    -webkit-touch-callout: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+@supports (
+  (-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))
+) {
+    .navbar {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: rgb(255,255,255,.6);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 4%;
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px);
+    }
+}
+
+.navbar h1 {
+    position: fixed;
+    top: 5px;
+    left: 55px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.navbar Img {
+    width: 30px;
+    height: 30px;
+    border-radius: 23.3%;
+    margin-left: 20px; 
+}
+
+.developer-card {
+    background: linear-gradient(45deg, rgba(255,255,255,.1) 0%, rgba(255,255,255,.6) 100%);
+    width: 85%;
+    display: inline-block;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.developer-card h2 {
+    color: #1C0B36;
+    font-weight: 800;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.developer-card p {
+    color: #1C0B36;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.developer-card img {
+    width: 120px;
+    border-radius: 60px;
+    margin: 15px;
+}
+
+.developer-card a {
+    color: #fff;
+    display: block;
+    width: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: #1C0B36;
+    margin: 10px;
+}
+
+@supports (
+  (-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))
+) {
+    .homebar {
+        font-family: Framework7 Icons;
+        justify-content: center;
+        position: fixed;
+        bottom: 0px;
+        z-index: 99;
+        text-align: center;
+        padding: 15px;
+        margin-bottom: 10px;
+        left: 13%;
+        width: 65%;
+        border-radius: 20px;
+        background: rgba(0, 0, 0, 0.6);
+        -webkit-backdrop-filter: saturate(180%) blur(20px);
+        backdrop-filter: saturate(180%) blur(20px);
+    }
+}
+
+/* need change */
+.homebar a:hover {
+    color: #1F5FBF;
+}
+
+.homebar a {
+    font-size: 40px;
+    color: #EBEBEB;
+    margin: 14.5px;
+}
